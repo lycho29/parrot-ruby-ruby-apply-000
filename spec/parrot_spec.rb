@@ -1,9 +1,14 @@
 require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
+<<<<<<< HEAD
 def parrot(name="Squawk!")
   puts name
   return name
+=======
+def parrot(name = "Squawk")
+  puts "{name}!"
+>>>>>>> 5a73bcd92f31382467676d9c3d0869012657dcf4
 end
 
 describe 'parrot' do
